@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  height: 80vh;
+  width: 60vw;
+  display: flex;
+  border-radius: 10px;
+}
+
+.yellow-container {
+  width: 30vw;
+  height: 80vh;
+  background-color: #ffbf1f;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.blue-container {
+  width: 30vw;
+  height: 80vh;
+  background-color: #0f172a;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.heading-yellow {
+  color: #334155;
+  margin: 20px;
+  font-size: 35px;
+}
+
+.heading-blue {
+  color: #ffbf1f;
+  margin: 20px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.input-item {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  border: 0pc;
+  margin: 5px;
+  padding: 8px;
+}
+
+.buttons {
+  width: 40px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #ffbf1f;
+  color: aliceblue;
+  border: 0pc;
+  margin: 5px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.no-view {
+  height: 50vh;
+  width: 30vw;
+  background-color: #ffc533;
+  margin: 10px;
+}
